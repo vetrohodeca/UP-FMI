@@ -1,0 +1,3 @@
+﻿  Source.cpp
+c:\users\alex\desktop\dimorecursiq\dimorecursiq\source.cpp(13): warning C4715: 'recFunc': not all control paths return a value
+  DimoRecursiq.vcxproj -> C:\Users\Alex\Desktop\DimoRecursiq\Debug\DimoRecursiq.exe
