@@ -19,7 +19,7 @@ bool IsPalindrome(char arr[])
 		{
 			return false;break;
 		}
-		else return true;
+		 return true;
 	}
 	
 }

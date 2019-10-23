@@ -12,13 +12,25 @@ int main()
 		{
 			cout<<"Suvpadat"<<endl;
 		}
-		else cout<<"Nqmat obsti tochki"<<endl;
+		else cout<<"Nqmat obshti tochki"<<endl;
 	}
 	else 
 	{
 		if(distanceBetweenTwoCenters==r1+r2)
 		{
 			cout<<"Doprirat se";
+		}
+		if(distanceBetweenTwoCenters>r1+r2)
+		{
+			cout<<"Nqmat obshti tochki";
+		}
+		else
+		{
+			if(distanceBetweenTwoCenters+r1==r2||distanceBetweenTwoCenters+r2==r1)
+			{
+				cout<<"Dopirat se";
+			}
+			else cout<<"Presichat se";
 		}
 	}
 }
