@@ -10,7 +10,7 @@ int main()
 	int length = strlen(A);
 	for (int i = 0; i < length; i++)
 	{
-		if (A[i] >= 'a'&&A [i] < 'z')
+		if (A[i] >= 'a'&&A [i] <= 'z')
 		{
 			B[j]=A[i];
 			j++;
