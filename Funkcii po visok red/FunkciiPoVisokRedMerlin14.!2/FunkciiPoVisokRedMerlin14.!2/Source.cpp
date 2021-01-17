@@ -7,7 +7,7 @@ bool isOdd(int n)
 		return true;
 	}
 }
-void Filter(int arr1[], int arr2[], int n, bool(*IsOdd)(int))
+void Filter(int arr1[], int arr2[], int &n, bool(*IsOdd)(int))
 {
 	int j = 0;
 	for (int i = 0; i < n; i++)
@@ -18,6 +18,7 @@ void Filter(int arr1[], int arr2[], int n, bool(*IsOdd)(int))
 			j++;
 		}
 	}
+	n = j;
 }
 int main()
 {
